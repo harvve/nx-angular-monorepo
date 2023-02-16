@@ -56,6 +56,11 @@
     "ts-node": "10.9.1",
     "typescript": "~4.8.2"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "volta": {
     "node": "19.5.0",
     "npm": "9.3.1"
