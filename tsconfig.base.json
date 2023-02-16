@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-angular-monorepo/varsioned-package": [
+        "libs/varsioned-package/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
